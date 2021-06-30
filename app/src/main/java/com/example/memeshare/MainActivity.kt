@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                     ): Boolean {
                         loader.visibility = View.GONE
                         return false
-                        TODO("Not yet implemented")
+
                     }
 
                     override fun onResourceReady(
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
                     ): Boolean {
                         loader.visibility = View.GONE
                         return false
-                        TODO("Not yet implemented")
+
                     }
 
                 }).into(imageView)
